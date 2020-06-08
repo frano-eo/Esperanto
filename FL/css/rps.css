@@ -1,0 +1,71 @@
+body{
+    font-family: 'Asap', sans-serif;
+    background-color:rgb(184, 162, 61);
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    color:rgb(53, 45, 10);
+
+}
+
+header{
+    font-size: xx-large;   
+    padding: 5px;  
+}
+
+img{
+    margin: 5%;
+    margin-top: 10px;
+    margin-bottom: 15px;   
+    border-radius: 30%;
+    background-color:rgb(119, 104, 30);
+    width: 12%;
+}
+
+img.rezulto{
+    width: 8%;
+    background-color:rgb(184, 162, 61); 
+    border: none; 
+}
+
+img.elekto:hover{
+    cursor: pointer;
+    background-color: rgb(244, 219, 100);
+}
+
+div.scoreBoard{
+    margin: 10px auto 0px;
+    /*border: moccasin solid;*/
+    width: 400px;
+    position: relative;    
+    padding: 5px;
+}
+
+.poentoj{
+    font-size: 40px;
+    margin: 15px;   
+}
+
+.ludanto{
+    position: absolute; 
+    top: 35%;
+    font-weight: bold;
+}
+
+#homolud{
+    left: 4%;
+}
+
+#kompolud{
+    right: 4%;
+}
+
+a{    
+        margin: auto;        
+        width: 345px;
+        font-weight: normal;
+        font-size: 18px; 
+        text-decoration: underline;
+        text-justify: center;
+        color: rgb(255, 233, 128);      
+}
