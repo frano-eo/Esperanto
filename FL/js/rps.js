@@ -1,5 +1,5 @@
-document.getElementById("komBildo").src= novImg[3];
-document.getElementById("miaBildo").src= novImg[3];
+document.getElementById("komBildo").src= "img/p(3).png";
+document.getElementById("miaBildo").src="img/p(3).png";
 document.getElementById("homPoento").innerHTML=0;
 document.getElementById("komPoento").innerHTML=0;
 document.getElementById("Ŝtono"  ).onclick = () => kompari(0);
